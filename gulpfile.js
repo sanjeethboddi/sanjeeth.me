@@ -18,7 +18,7 @@ const config = {
   },
 
   // Optional
-  deleteOldVersions: true, // KHATRON KE KHILADI // NOT FOR PRODUCTION // WHEN CLEANING UP THE BUCKET; JUST TURN IT ON.
+  deleteOldVersions: false, // KHATRON KE KHILADI // NOT FOR PRODUCTION // WHEN CLEANING UP THE BUCKET; JUST TURN IT ON.
   distribution: process.env.AWS_CLOUDFRONT, // CloudFront distribution ID
   region: process.env.AWS_DEFAULT_REGION,
   headers: {
