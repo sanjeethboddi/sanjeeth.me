@@ -7,7 +7,7 @@ export default {
   email: 'hello@sanjeeth.me',
   googleAnalyticsV4: {
     enabled: true,
-    id: ''
+    id: 'G-J12RWV3K95'
   },
   plausibleAnalytics: {
     enabled: false,
@@ -34,7 +34,7 @@ export default {
     url: 'https://www.buymeacoffee.com/sanjeethboddi'
   },
   projects: {
-    enabled: true,
+    enabled: false,
   },
   blog: {
     enabled: true,
@@ -47,21 +47,33 @@ export default {
     enabled: true,
     meta: [
       {title: 'OS', value: 'macOS Sonoma '},
+      {title: 'Laptop', value: 'macbook air m2 2022 • 256GB SSD • 16GB RAM'},
+      {title: 'Browser', value: 'Arc Browser'}, 
+      {title: 'Terminal', value: 'iTerm2'},
+      {title: 'Shell', value: 'zsh'},
+      {title: 'Editor', value: 'VS Code'},
+      {title: 'Notes', value: 'Obsidian'},
     ]
   },
   workedAt: {
     // add logos in static and at max add 3/4
-    enabled: false,
+    enabled: true,
     meta: [
-      { name: 'Amazon', src: '/images/amazon.png', url: 'https://amazon.in' },
+      { name: 'Wayne State University', src: '/images/work/wayne.png', url: 'https://wayne.edu'},
+      { name: 'University of Texas at San Antonio', src: '/images/work/utsa.png', url: 'https://utsa.edu' },
+      { name: 'Swiggy', src: '/images/work/swiggy.png', url: 'https://swiggy.com' },
+      { name: 'Amazon', src: '/images/work/amazon.png', url: 'https://amazon.com' },
+      { name: 'Mihup Communications', src: '/images/work/mihup.jpeg', url: 'https://mihup.com' },
     ]
   },
   recommendations: {
     enabled: false,
     meta: [
       { name: 'God', designation: 'Creator, Universe', image: '/images/.jpeg', linkedin: 'https://www.linkedin.com/in/', content: 'Sanjeeth is built different.' },
-      { name: 'Satan', designation: 'CEO, Hell', image: '/images/.jpeg', linkedin: 'https://www.linkedin.com/in/gkcs/', content: 'Hate to say.. but he is a good guy.!' },
     ]
+  },
+  githubCalendar: {
+    enabled: false,
   },
   loadingIndicator: {
     name: 'chasing-dots'
@@ -99,7 +111,7 @@ export default {
         haveALook: 'have a look',
         friendlyNeighborhood: 'your friendly neighborhood',
         description: 'i am a software engineer and a part time freelancer. i blog tech, write a weekend newsletter called software shots, and tinker with side projects every now n then.',
-        words: ['developer', 'designer', 'engineer', 'programmer', 'encoder'],
+        words: ['developer', 'engineer', 'programmer', 'coder', 'freelancer'],
       },
       githubCalendar: {
         header: 'contributions',
