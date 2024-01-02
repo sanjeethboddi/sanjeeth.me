@@ -110,7 +110,7 @@ export default {
         iBlogTech: 'i blog tech',
         haveALook: 'have a look',
         friendlyNeighborhood: 'your friendly neighborhood',
-        description: 'i am a software engineer and a part time freelancer. i blog tech, write a weekend newsletter called software shots, and tinker with side projects every now n then.',
+        description: 'i am a software engineer and a part time freelancer. i blog tech, write a weekend newsletter called Tech Shark, and tinker with side projects every now n then.',
         words: ['developer', 'engineer', 'programmer', 'coder', 'freelancer'],
       },
       githubCalendar: {
