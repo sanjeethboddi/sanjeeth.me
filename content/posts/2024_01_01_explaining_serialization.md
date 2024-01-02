@@ -18,7 +18,7 @@ Perry, the platypus, is a spy working for the O.W.C.A. He received a mission to 
 
 Here's an image providing a visual of one of the levels of Doofenshmirtz's secret base. Red indicates traps, black denotes walls, and blue denotes a staircase.
 
-![Doofenshmirtz's secret base](../../static/images/articles/2/doof_base.jpg)
+![Doofenshmirtz's secret base](/images/articles/2/doof_base.jpg)
 
 Perry, being a resourceful platypus, encoded the map into a text message format and sent it to the O.W.C.A:
 
