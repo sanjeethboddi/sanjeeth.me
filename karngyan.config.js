@@ -7,7 +7,7 @@ export default {
   email: 'hello@sanjeeth.me',
   googleAnalyticsV4: {
     enabled: true,
-    id: 'G-J12RWV3K95'
+    id: '6255992371'
   },
   plausibleAnalytics: {
     enabled: false,
