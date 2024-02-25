@@ -40,16 +40,20 @@ export default {
     enabled: true,
   },
   resume: {
-    enabled: false,
+    enabled: true,
     pdfUrl: '/RESUME_SANJEETH_BODDINAGULA.pdf' // add files in static folder
+  },
+  calendar: {
+    enabled: true,
+    url: 'https://cal.com/sanjeethboddi'
   },
   uses: {
     enabled: true,
     meta: [
       {title: 'OS', value: 'macOS Sonoma '},
-      {title: 'Laptop', value: 'macbook air m2 2022 • 256GB SSD • 16GB RAM'},
+      {title: 'Laptop', value: 'Macbook Air M2 2022 • 256GB SSD • 16GB RAM'},
       {title: 'Browser', value: 'Arc Browser'}, 
-      {title: 'Terminal', value: 'iTerm2'},
+      {title: 'Terminal', value: 'Warp'},
       {title: 'Shell', value: 'zsh'},
       {title: 'Editor', value: 'VS Code'},
       {title: 'Notes', value: 'Obsidian'},
@@ -69,7 +73,21 @@ export default {
   recommendations: {
     enabled: false,
     meta: [
-      { name: 'God', designation: 'Creator, Universe', image: '/images/.jpeg', linkedin: 'https://www.linkedin.com/in/', content: 'Sanjeeth is built different.' },
+      { 
+        name: '',
+        designation: '', 
+        image: '/images/.jpeg', 
+        linkedin: 'https://www.linkedin.com/in/', 
+        content: '.' 
+      },
+      {
+        name: 'God',
+        designation: 'Creator, Universe', 
+        image: '/images/.jpeg', 
+        linkedin: 'https://www.linkedin.com/in/', 
+        content: 'Sanjeeth is built different.' 
+      },
+
     ]
   },
   githubCalendar: {
@@ -102,6 +120,7 @@ export default {
         projects: 'projects',
         uses: 'uses',
         resume: 'résumé',
+        calendar: 'wanna chat?',
         buyMeACoffee: 'buy me a coffee',
         signIn: 'sign in',
         signOut: 'sign out'
@@ -135,7 +154,7 @@ export default {
       },
       recommendations: {
         header: 'recommendations',
-        subtext: 'what do my mentors say'
+        subtext: 'what do my mentors and peers say'
       }
     }
   }
