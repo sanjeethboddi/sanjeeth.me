@@ -23,24 +23,47 @@ export default {
 </script>
 
 <style scoped>
->>> rect.ContributionCalendar-day[data-level='0'] {
+>>> .calendar table {
+  border-collapse: separate;
+  border-spacing: 1px 1px;
+}
+
+/* labels  */
+>>> td.ContributionCalendar-label {
+  @apply text-gray-500 text-lg;
+  padding: 9px;
+  font-weight: bold;
+}
+/* cells */
+>>> div.ContributionCalendar-day{ 
+  padding: 5px;
+  border-radius: 1px;
+}
+
+>>> td.ContributionCalendar-day{
+  width: 7px;
+  height: 7px;
+  border-radius: 4px;
+}
+>>> td.ContributionCalendar-day[data-level='0'] {
   @apply fill-current text-gray-900;
+  background-color: rgb(255, 255, 255)
 }
 
->>> rect.ContributionCalendar-day[data-level='1'] {
-  fill: rgb(14, 68, 41);
+>>> .ContributionCalendar-day[data-level='1'] {
+  background-color: rgb(191, 191, 255);
 }
 
->>> rect.ContributionCalendar-day[data-level='2'] {
-  fill: rgb(0, 109, 50);
+>>> .ContributionCalendar-day[data-level='2'] {
+  background-color: rgb(127, 127, 255);
 }
 
->>> rect.ContributionCalendar-day[data-level='3'] {
-  fill: rgb(38, 166, 65);
+>>> .ContributionCalendar-day[data-level='3'] {
+  background-color: rgb(63, 63, 255);
 }
 
->>> rect.ContributionCalendar-day[data-level='4'] {
-  fill: rgb(57, 211, 83);
+>>> .ContributionCalendar-day[data-level='4'] {
+  background-color: rgb(0, 0, 255);
 }
 
 >>> .graph-before-activity-overview {
@@ -51,14 +74,13 @@ export default {
   border: none;
 }
 
-.calendar >>> .width-full > .float-right {
+>>> .width-full > .float-right {
   @apply text-sm text-gray-400 flex flex-row items-center justify-center px-4;
 }
 
-.calendar >>> .width-full > .float-right svg {
+>>> .width-full > .float-right{
   @apply mx-0.5;
 }
-
 
 .calendar >>> .width-full > .float-left {
   @apply flex items-center justify-center;
@@ -68,13 +90,11 @@ export default {
   @apply pl-8 text-sm text-gray-400 hover:text-indigo-500;
 }
 
->>> text.ContributionCalendar-label {
-  font-size: 9px;
-  @apply text-gray-500;
-}
+
 
 >>> .contrib-column {
   @apply border-none;
+  display: none;
 }
 
 >>> .contrib-number {
@@ -85,10 +105,8 @@ export default {
   @apply text-gray-300;
 }
 
-/*@media (min-width: 768px) {*/
-/*  .calendar {*/
-/*    padding-right: 3rem !important;*/
-/*  }*/
-/*}*/
+@media (min-width: 768px) {
+  
+}
 
 </style>

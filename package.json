@@ -27,7 +27,7 @@
     "date-fns": "^2.22.1",
     "fibers": "^5.0.0",
     "firebase": "^8.6.7",
-    "github-calendar": "^2.2.7",
+    "github-calendar": "2.3.3",
     "nuxt": "^2.15.3",
     "nuxt-i18n": "^6.27.0",
     "pdfvuer": "^1.8.3",

@@ -91,7 +91,7 @@ export default {
     ]
   },
   githubCalendar: {
-    enabled: false,
+    enabled: true,
   },
   loadingIndicator: {
     name: 'chasing-dots'
