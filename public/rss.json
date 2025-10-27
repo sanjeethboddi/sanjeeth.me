@@ -1,19 +1,19 @@
 {
     "version": "https://jsonfeed.org/version/1",
     "title": "Blogs",
-    "home_page_url": "https://rdsx.dev",
-    "feed_url": "https://rdsx.dev/rss.json",
+    "home_page_url": "https://rudro.dev",
+    "feed_url": "https://rudro.dev/rss.json",
     "description": "Hey! I am RDS (Rudro Dip Sarker), and its my personal blog where I share my learnings, experiences, and thoughts on different topics. I mostly talk about tech, but I don't have any specific niche.  I write about whatever I find interesting. I hope you will find my blogs helpful. Happy reading!",
-    "icon": "https://rdsx.dev/logo.png",
+    "icon": "https://rudro.dev/logo.png",
     "items": [
         {
-            "url": "https://rdsx.dev/blogs/buildspace-os-mod",
+            "url": "https://rudro.dev/blogs/buildspace-os-mod",
             "title": "I modded the Buildspace OS",
             "summary": "A journey of me modding the buildspace os chrome extension to customize the look",
             "date_modified": "2024-06-20T00:00:00.000Z"
         },
         {
-            "url": "https://rdsx.dev/blogs/on-scroll-playback",
+            "url": "https://rudro.dev/blogs/on-scroll-playback",
             "title": "On scroll video playback effect",
             "summary": "Let's create an on scroll video playback effect using ffmpeg, framer-motion & nextjs",
             "date_modified": "2024-06-17T00:00:00.000Z"

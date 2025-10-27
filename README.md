@@ -2,7 +2,7 @@
 
 ## Demo
 
-You can check the live demo of this website [rdsx.dev![rdsx.dev](.github/assets/preview.png)](https://rdsx.dev)
+You can check the live demo of this website [rudro.dev![rudro.dev](.github/assets/preview.png)](https://rudro.dev)
 
 ## Features
 
@@ -15,7 +15,7 @@ You can check the live demo of this website [rdsx.dev![rdsx.dev](.github/assets/
 - Sitemap generation
 - Analytics integration
 
-[pagespeed.web.dev <br /><img width="500px" src="https://github.com/rudrodip/rdsx.dev/assets/77154365/7e02fb43-4a0a-4959-b7e3-61df0ca82d0f" />](https://pagespeed.web.dev/analysis/https-www-rdsx-dev/5dbg63wkcn?form_factor=desktop)
+[pagespeed.web.dev <br /><img width="500px" src="https://github.com/rudrodip/rudro.dev/assets/77154365/7e02fb43-4a0a-4959-b7e3-61df0ca82d0f" />](https://pagespeed.web.dev/analysis/https-www-rdsx-dev/5dbg63wkcn?form_factor=desktop)
 
 ## Tech Stack
 
@@ -34,7 +34,7 @@ You can check the live demo of this website [rdsx.dev![rdsx.dev](.github/assets/
 
 ```bash
 # fork the repo & clone it
-git clone https://github.com/your-username/rdsx.dev
+git clone https://github.com/your-username/rudro.dev
 
 # install dependencies
 bun install
@@ -141,7 +141,7 @@ export default function RootLayout(...) {
 
 The easiest way to deploy this website is to use Vercel. You can deploy it with a single click using the button below:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/rudrodip/rdsx.dev)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/rudrodip/rudro.dev)
 
 ## License
 
