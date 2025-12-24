@@ -2,7 +2,7 @@
 
 ## Demo
 
-You can check the live demo of this website [rudro.dev![rudro.dev](.github/assets/preview.png)](https://rudro.dev)
+You can check the live demo of this website [sanjeeth.me![sanjeeth.me](.github/assets/preview.png)](https://sanjeeth.me)
 
 ## Features
 
@@ -34,7 +34,7 @@ You can check the live demo of this website [rudro.dev![rudro.dev](.github/asset
 
 ```bash
 # fork the repo & clone it
-git clone https://github.com/your-username/rudro.dev
+git clone https://github.com/your-username/sanjeeth.me
 
 # install dependencies
 bun install
@@ -141,7 +141,7 @@ export default function RootLayout(...) {
 
 The easiest way to deploy this website is to use Vercel. You can deploy it with a single click using the button below:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/rudrodip/rudro.dev)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/sanjeethboddi/sanjeeth.me)
 
 ## License
 
